@@ -40,16 +40,6 @@ make add pkg=<package-name>
 
 Replace `<package-name>` with the actual name of the package you want to add.
 
-## Running the Application
-
-To run the application, use:
-
-```sh
-make run prompt="<your-prompt>"
-```
-
-Replace `<your-prompt>` with the actual prompt you want to pass to `pylet.py`.
-
 ## Model Management
 
 ### Download Pre-trained Model
@@ -60,7 +50,17 @@ To download the pre-trained model from Hugging Face, run:
 make getmodel
 ```
 
-## Code Quality
+## Running the Application
+
+To run the application, use:
+
+```sh
+make run prompt="<your-prompt>"
+```
+
+Replace `<your-prompt>` with the actual prompt you want to pass to `pylet.py`.
+
+## Code Testing and Formatting
 
 ### Linting
 
