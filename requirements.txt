@@ -1,0 +1,9 @@
+transformers==4.42.3
+black==24.4.2
+pytest==8.2.2
+pylint==3.2.5
+-i https://download.pytorch.org/whl/cu118
+torch
+torchvision
+torchaudio
+accelerate==0.32.1
